@@ -1,0 +1,117 @@
+$color-primary: #bf0000;
+$color-secondary: #6e0000;
+$color-pale: #240000;
+$color-mid: #a5a5a5;
+$color-dark: #7b7b7b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #dbdada;
+$color-top: #000000;
+$color-middle: #4b4b4b;
+$color-bottom: #848484;
+$color-bodytop: #2e0000;
+$color-bodymid: #2d0000;
+$color-bodybottom: #990000;
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(239, 5, 5, 0.518), 0 4px 8px rgba(248, 4, 4, 0.43);
+}
+
+body {
+    font-family: $body-font;
+    background-image: linear-gradient(to bottom, $color-top, $color-dark, $color-mid);
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+h2 {
+    color: $color-primary;
+}
+#who {
+    color: $color-teal;
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(to top, $color-primary, $color-secondary, $color-pale);
+    color: white;
+}
+
+header{ 
+    h2 {
+    color: $color-pale;
+    }
+}
+footer{
+    background-image:linear-gradient(to bottom, $color-primary, $color-secondary, $color-pale);
+    padding: 20px 0;
+}
+.navbar {
+    background-image: linear-gradient(to bottom, $color-primary, $color-secondary, $color-pale);
+}
+#pfp {
+    border: #fe0101 solid 20px;
+    border-radius: 50%;
+}
+.pj-text {
+    text-align: center;
+}
+
+.pj {
+    color: $color-teal;
+}
+h3 {
+    color: $color-teal;
+}
+#flickfeed {
+    border: #fe0101 solid 20px;
+    border-radius: 20px;
+}
+#campsite {
+    background-color: white;
+}
+p {
+    color: $color-teal;
+}
+.card-text {
+    color: $color-bodybottom;
+}
+.card-title {
+    color: $color-bodybottom;
+}
+/* unvisited link */
+.links:link {
+    text-decoration: none;
+    color: rgb(230, 228, 228);
+  }
+  
+  /* visited link */
+  .links:visited {
+    text-decoration: none;
+    color: rgb(211, 212, 211);
+  }
+  
+  /* mouse over link */
+  .links:hover {
+    text-decoration: none;
+    color: rgb(241, 28, 32);
+  }
+  
+  /* selected link */
+  .links:active {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+  }
+  #submitbtn {
+    color: rgb(161, 8, 13);
+}
+form {
+    color: #dbdada;
+    background-color: rgb(161, 8, 13);
+    padding: 50;
+    border-radius: 20;
+    margin: 40;
+}
